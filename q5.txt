@@ -1,0 +1,24 @@
+q5
+docker volume create khushiq5
+
+ docker run --name khushi5q5 alpine
+
+
+q3
+
+docker pull dockerashu/ckad:v2 
+docker run -it --name khushic3q3 -p 4555:80 dockerashu/ckad:v2
+ 
+ 
+ q4
+ vim Dockerfile
+ from centos
+ mkdir /code
+ copy /  ttps://github.com/redashu/beginner-html-site-styled.git  /code/
+ expose 80
+ entrypoint yum install httpd -y
+ 
+ docker build -t khushi:q4
+ docker run --name khushic4q4 -p 5555:80 khushi:q4
+ 
+  
