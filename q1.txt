@@ -1,0 +1,20 @@
+step 1vim Dockerfile
+  from alpine
+  cmd date ='%H:%M:%S'
+  
+step 2 dcoker build -t alpine:khushi .
+
+Sending build context to Docker daemon  3.072kB
+
+Step 1/2 : FROM alpine
+ ---> a187dde48cd2
+Step 2/2 : CMD date +'%H:%M:%S'
+ ---> Using cache
+ ---> f6c25af2a50e
+Successfully built f6c25af2a50e
+Successfully tagged alpine:khusi
+docker run -it --name ashuq1c1 alpine:khushi
+18:16:49
+
+
+
